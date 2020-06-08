@@ -1,0 +1,5 @@
+        mov  dl, 0   ;Column
+        mov  dh, 0   ;Row
+        mov  bh, 0    ;Display page
+        mov  ah, 02h  ;SetCursorPosition
+        int  10h
